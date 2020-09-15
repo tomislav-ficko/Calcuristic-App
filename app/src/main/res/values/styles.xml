@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ButtonStyle">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NumberStyle" parent="ButtonStyle">
+        <item name="android:background">@color/blueButton</item>
+    </style>
+
+    <style name="OperatorStyle" parent="ButtonStyle">
+        <item name="android:background">@color/orangeButton</item>
+    </style>
+
 </resources>
