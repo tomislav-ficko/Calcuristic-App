@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Calcuristic-App</string>
+    <string name="division_error">Cannot divide by 0!</string>
 </resources>
