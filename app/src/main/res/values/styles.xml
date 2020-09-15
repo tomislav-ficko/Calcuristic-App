@@ -10,14 +10,23 @@
 
     <style name="ButtonStyle">
         <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <!--<item name="android:background">@drawable/layout_border</item>-->
     </style>
 
     <style name="NumberStyle" parent="ButtonStyle">
-        <item name="android:background">@color/blueButton</item>
+        <item name="android:background">@color/colorNumberButton</item>
     </style>
 
-    <style name="OperatorStyle" parent="ButtonStyle">
-        <item name="android:background">@color/orangeButton</item>
+    <style name="FunctionStyle" parent="ButtonStyle">
+        <item name="android:background">@color/colorFunctionButton</item>
+    </style>
+
+    <style name="EntryField">
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:background">@color/colorEntryField</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textSize">30sp</item>
     </style>
 
 </resources>
